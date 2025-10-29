@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'PDfont';
+  src: url('/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'); 
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PDESASfont';
+  src: url('/PlaywriteDESAS-VariableFont_wght.ttf') format('truetype'); 
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NJPSans';
+  src: url('/NotoSansJP-VariableFont_wght.ttf') format('truetype'); 
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    font-family: 'NJPSans', serif;
+  }
+  .sans {
+    font-family: 'NJPSans', sans-serif;
+  }
+  .play-write {
+    font-family: 'PDESASfont', serif;
+  }
+}
